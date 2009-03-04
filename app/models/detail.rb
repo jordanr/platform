@@ -1,3 +1,2 @@
-class Detail < ActiveRecord::Base
-  belongs_to :listing
+class Detail < ActiveResource::Base
 end
