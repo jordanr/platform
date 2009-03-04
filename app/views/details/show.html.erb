@@ -1,0 +1,13 @@
+<p>
+  <b>Title:</b>
+  <%=h @detail.title %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%=h @detail.content %>
+</p>
+
+
+<%= link_to 'Edit', edit_listing_detail_path(@listing, @detail) %> |
+<%= link_to 'Back', listing_details_path(@listing) %>

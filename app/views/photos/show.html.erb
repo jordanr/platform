@@ -1,0 +1,18 @@
+<p>
+  <b>Title:</b>
+  <%=h @photo.title %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%=h @photo.url %>
+</p>
+
+<p>
+  <b>Thumbnail url:</b>
+  <%=h @photo.thumbnail_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_listing_photo_path(@listing, @photo) %> |
+<%= link_to 'Back', listing_photos_path(@listing) %>

@@ -1,0 +1,56 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  price: 1
+  yacht_name: MyString
+  yacht_new: false
+  yacht_location_city: MyString
+  yacht_location_state_id: 1
+  yacht_location_country_id: 1
+  yacht_specification_length: 1
+  yacht_specification_manufacturer: MyString
+  yacht_specification_model: MyString
+  yacht_specification_year: 1
+  yacht_specification_designer: MyString
+
+two:
+  price: 1
+  yacht_name: MyString
+  yacht_new: false
+  yacht_location_city: MyString
+  yacht_location_state_id: 1
+  yacht_location_country_id: 1
+  yacht_specification_length: 1
+  yacht_specification_manufacturer: MyString
+  yacht_specification_model: MyString
+  yacht_specification_year: 1
+  yacht_specification_designer: MyString
+
+sone:
+  id: 1
+  price: 1
+  yacht_name: MyString
+  yacht_new: false
+  yacht_location_city: MyString
+  yacht_location_state_id: 1
+  yacht_location_country_id: 1
+  yacht_specification_length: 1
+  yacht_specification_manufacturer: MyString
+  yacht_specification_model: MyString
+  yacht_specification_year: 1
+  yacht_specification_designer: MyString
+
+stwo:
+  id: 2
+  price: 1
+  yacht_name: MyString
+  yacht_new: false
+  yacht_location_city: MyString
+  yacht_location_state_id: 1
+  yacht_location_country_id: 1
+  yacht_specification_length: 1
+  yacht_specification_manufacturer: MyString
+  yacht_specification_model: MyString
+  yacht_specification_year: 1
+  yacht_specification_designer: MyString
+

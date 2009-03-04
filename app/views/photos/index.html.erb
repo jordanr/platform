@@ -1,0 +1,24 @@
+<h1>Listing photos</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Url</th>
+    <th>Thumbnail url</th>
+  </tr>
+
+<% for photo in @photos %>
+  <tr>
+    <td><%=h photo.title %></td>
+    <td><%=h photo.url %></td>
+    <td><%=h photo.thumbnail_url %></td>
+    <td><%= link_to 'Show', listing_photo_path(@listing, photo) %></td>
+    <td><%= link_to 'Edit', edit_listing_photo_path(@listing, photo) %></td>
+    <td><%= link_to 'Destroy', [@listing, photo], :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New photo', new_listing_photo_path(@listing) %>
